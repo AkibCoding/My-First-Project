@@ -14,7 +14,7 @@ public class Main extends Application {
 			ViewManager manager=new ViewManager();
 			primaryStage=manager.getMainStage();
 			primaryStage.show();
-			primaryStage.setTitle("Akib's game");
+			primaryStage.setTitle("game");
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
